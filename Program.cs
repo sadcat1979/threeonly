@@ -48,7 +48,8 @@ public class MainBlockHomeWork {
         }
 
         int outputArrayIndex = 0;
-        for (int i = 0; i < Filled(inputArray); i++)
+        int inputArrayLength = Filled(inputArray); //чтобы не вызывать метод в каждоый итерации
+        for (int i = 0; i < inputArrayLength; i++)
         {
             if (inputArray[i].Length<4) {
                 outputArray[outputArrayIndex] = inputArray[i];
