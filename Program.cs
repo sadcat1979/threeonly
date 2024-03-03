@@ -24,7 +24,7 @@ public class MainBlockHomeWork {
         //Поскольку цитата: "не рекомендуется использовать коллекции",
         //а массивы статические, и мы не знаем, сколько значений введёт
         //пользователь, приходится возиться с null
-        const bool _FromKeyboard = true; //переключатель режима ввода
+        const bool _FromKeyboard = false; //переключатель режима ввода
         const int _ArrayLength = 1000; //костыль из-за статического массива
 
         string[] inputArray = new string[_ArrayLength];
